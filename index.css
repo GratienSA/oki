@@ -3,36 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-img {
-    width: 10%;
-}
 header {
-    border: 1px solid black;
-    height: 800px;
     background-image: url(./media/bg_hero_desktop.svg);
-}
-.header-container {
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    height: 900px;
+}
+.logo {
+    margin: 40px 50px;
+}
+.container {
+    width: 40%;
+}
+h1 {
+    margin: 50px 50px;
+    font-size: 50px;
+}
+.container p {
+    font-size: 18px;
+    margin: 0 50px;
+    width: 70%;
+}
+.getclick {
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    margin: 20px 50px;
+}
+.image-header {
+    width:50%;
+    position: absolute;
+    right: 50px;
+    top: 140px;
 }
 .tryitfree {
     position: absolute;
-    top: 0;
-    right: 0;
-    margin: 50px 20px;
     width: 10%;
     height: 50px;
     border-radius: 30px;
-}
-.logoo {
-    width: 15%;
-    height: 10%;
-    margin: 60px 70px;
-}
-.exemple-screen {
-    position: absolute;
-    width: 40%;
-    right: 30px;
-    top: 150px;
+    right: 0;
+    margin: 40px 70px;
 }
