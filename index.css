@@ -47,3 +47,12 @@ button {
     cursor: pointer;
     background-color: wheat;
 }
+main {
+    display: flex;
+}
+.container img {
+    width: 30%;
+}
+.container2 img {
+    width: 30%;
+}
