@@ -15,8 +15,8 @@ header {
     width: 40%;
 }
 h1 {
-    margin: 50px 50px;
-    font-size: 50px;
+    margin: 100px 50px;
+    font-size: 40px;
 }
 .container p {
     font-size: 18px;
@@ -42,4 +42,7 @@ h1 {
     border-radius: 30px;
     right: 0;
     margin: 40px 70px;
+}
+button {
+    cursor: pointer;
 }
