@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 500px 500px;
+}
+header {
+    grid-column: 1 / 3;
+    grid-row: 1/4;
+    position: relative;
+    background-image: url(./media/bg_hero_desktop.svg);
+}
+.header-container {
+    border: 1px solid black;
+}
+.button-container {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+}
+.tryitfree {
+    padding: 5%;
+    margin: 10px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    cursor:pointer;
+}
+img {
+    width: 10%;
+}
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+footer {
+    grid-column: 1 / 3;
+}
