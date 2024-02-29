@@ -93,8 +93,8 @@ main {
     rgba(128, 128, 128, 0.253);
 }
 .container3 img {
-    width: 40%;
-    margin: 2%;
+    width: 30%;
+    margin-left: 100px;
 }
 .texte {
     padding: 10%;
