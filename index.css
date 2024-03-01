@@ -104,7 +104,7 @@ main {
     margin: 30px;
     border-radius: 10px;
     box-shadow: 0px 0 20px 0px
-    rgba(128, 128, 128, 0.253);
+    rgba(128, 128, 128, 0.404);
 }
 .container3 img {
     width: 30%;
@@ -130,10 +130,7 @@ main {
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
-
-
-    
+    "wdth" 100;    
     color: grey;
     font-size: 18px;
     width: 90%;
