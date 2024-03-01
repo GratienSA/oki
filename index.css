@@ -61,10 +61,10 @@ h1 {
     background-color:  hsla(322, 100%, 66%, 0.452);
 }
 .image-header {
-    width:40%;
+    width:43%;
     position: absolute;
-    right: 100px;
-    top: 140px;
+    right: 200px;
+    top: 130px;
 }
 .tryitfree {
     position: absolute;
