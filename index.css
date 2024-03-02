@@ -64,7 +64,7 @@ h1 {
     width:50%;
     position: absolute;
     right: 40px;
-    top: 130px;
+    top: 150px;
 }
 .tryitfree {
     position: absolute;
@@ -77,7 +77,7 @@ h1 {
     background-color: white;
     color: black;
     box-shadow: 0 0 10px 0px
-    rgba(128, 128, 128, 0.671);
+    rgba(128, 128, 128, 0.24);
     font-size: 15px;
 }
 .tryitfree:hover {
