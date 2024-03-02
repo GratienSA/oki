@@ -23,13 +23,13 @@ header {
     
 }
 .logo {
-    margin: 40px 50px;
+    margin: 40px 80px;
 }
 .container {
     width: 40%;
 }
 h1 {
-    margin: 100px 0 30px 50px;
+    margin: 100px 0 30px 80px;
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -37,8 +37,8 @@ h1 {
 }
 .container p {
     font-size: 18px;
-    margin: 0 50px;
-    width: 70%;
+    margin: 0 80px;
+    width: 90%;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -47,10 +47,10 @@ h1 {
     "wdth" 100;
 }
 .getclick {
-    width: 37%;
+    width: 50%;
     height: 60px;
     border-radius: 30px;
-    margin: 45px 50px;
+    margin: 45px 100px;
     border: none;
     background-color:  hsl(322, 100%, 66%);
     box-shadow: 0 0 10px 0px
@@ -61,14 +61,14 @@ h1 {
     background-color:  hsla(322, 100%, 66%, 0.452);
 }
 .image-header {
-    width:43%;
+    width:50%;
     position: absolute;
-    right: 200px;
+    right: 40px;
     top: 130px;
 }
 .tryitfree {
     position: absolute;
-    width: 10%;
+    width: 15%;
     height: 50px;
     border-radius: 30px;
     right: 0;
@@ -103,8 +103,8 @@ main {
     width: 80%;
     margin: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0 20px 0px
-    rgba(128, 128, 128, 0.404);
+    box-shadow: 0px 0 30px 1px
+    rgba(128, 128, 128, 0.11);
 }
 .container3 img {
     width: 30%;
