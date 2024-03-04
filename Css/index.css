@@ -23,6 +23,7 @@ header {
 .logo {
     margin: 40px 80px;
     width: 15%;
+    filter: drop-shadow(0 0 3px);
 }
 .container {
     display: flex;
