@@ -1,0 +1,85 @@
+@media  (max-width: 375px) {
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+ .logo {
+    margin: 30px 20px;
+    width: 30%;
+    object-fit: contain;
+ }    
+ .tryitfree {
+    width: 30%;
+    height: 30px;
+    margin: 30px ;
+    font-size: 10px;
+ }
+ header {
+  text-align: center;
+  background-image: url(/oki/media/bg_hero_mobile.svg);
+ }
+ h1{
+   font-size: 20px;
+   width: 100%;
+   margin: 50px 0;
+   text-align: center;
+ }
+ header p {
+  width: 80%;
+  text-align: center;
+  margin: 0 40px;
+ }
+ .getclick {
+  width: 70%;
+  height: 50px;
+  margin: 30px 0;
+ }
+ .image-header {
+  width: 80%;
+  margin-top: 370px;
+  margin-right: 40Px;
+  right: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container3 {
+  flex-direction: column;
+}
+.container2 {
+  flex-direction: column-reverse;
+}
+.container2 img {
+  width: 70%;
+  margin: 20px 0 ;
+}
+.container3 img {
+  width: 70%;
+  margin: 20px 0;
+}
+ .Titre {
+   font-size: 20px;
+   text-align: center;
+ }
+ .sous-titre {
+   font-size: 10px;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   word-spacing: 2px;
+ }
+
+
+
+}
