@@ -9,6 +9,7 @@
 }
 main {
     background-color: none;
+    position: relative;
 }
 header {
     background-image: url(/oki/media/bg_hero_desktop.svg);
@@ -66,6 +67,7 @@ header p {
     position: absolute;
     right: 70px;
     top: 150px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.384));
 }
 .tryitfree {
     width: 13%;
@@ -148,4 +150,74 @@ main {
     color: grey;
     font-size: 18px;
     width: 90%;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    height: 500px;
+}
+.list1,
+.list2,
+.list3 {
+    list-style: none;
+}
+li {
+    padding: 10px;
+}
+footer i {
+    border: 1px solid white;
+    border-radius:50%;
+    padding: 10px;
+    cursor: pointer;
+    margin:5px;
+    font-size: 13px;
+}
+.list3 i {
+    gap: 30px;
+    border: 1px solid white;
+}
+footer i:hover {
+    color: pink;
+    border: 1px solid pink;
+}
+.list3 p  {
+    margin-top: 100px;
+    font-size: 13px;
+}
+.under-user {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: -100px;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0px 0 30px 1px
+    rgba(128, 128, 128, 0.11);
+    height: 200px;
+    border-radius: 10px;
+}
+.under-user p {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.under-user-button {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 50%;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color:  hsl(322, 100%, 66%);
+    box-shadow: 0 0 10px 0px
+    rgba(128, 128, 128, 0.671);
+    color: white;
 }
