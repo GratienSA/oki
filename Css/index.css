@@ -49,6 +49,16 @@ header p {
     font-variation-settings:
     "wdth" 100;
 }
+.Dark-mode {
+    width: 2%;
+    height: 40px;
+    background: none;
+    margin: 10px;
+    border: none;
+}
+.Dark-mode i {
+    font-size: 30px;
+}
 .getclick {
     width: 20%;
     height: 60px;
