@@ -104,6 +104,12 @@ footer {
 .logo-footer {
   margin: 20px;
 }
+.email-container img {
+  height: 20px;
+}
+.phone-container img {
+  height: 20px;
+}
 .logo-footer {
   width:50%;
 }

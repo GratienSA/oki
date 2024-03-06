@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 h1 {
     margin: 100px 0 30px 80px;
     font-size: 40px;
@@ -186,6 +187,10 @@ footer {
     margin-top: 100px;
     cursor: pointer;
 }
+.list1 li:hover,
+.list2 li:hover{
+    text-decoration: underline;
+}
 li {
     padding: 10px;
 }
@@ -261,5 +266,11 @@ footer i:hover {
     width: 100%;
 }
 .localisation-container img {
+    height: 20px;
+}
+.phone-container img {
+    height: 20px;
+}
+.email-container img {
     height: 20px;
 }
