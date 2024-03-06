@@ -49,6 +49,9 @@ header p {
     font-variation-settings:
     "wdth" 100;
 }
+body {
+    transition: 1.5s;
+}
 .Dark-mode {
     width: 2%;
     height: 40px;
