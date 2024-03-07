@@ -20,7 +20,7 @@ main {
     background-color: hsl(193, 100%, 96%);
     box-shadow: 0 0 5px 0px
     rgba(128, 128, 128, 0.671);
-    transition: 1.5s;
+    transition: 1s;
 }
 .logo {
     margin: 40px 80px;
@@ -50,14 +50,16 @@ header p {
     "wdth" 100;
 }
 body {
-    transition: 1.5s;
+    transition: 1s;
 }
 .Dark-mode {
     width: 2%;
     height: 40px;
     background: none;
-    margin: 10px;
+    margin-left: 55%;
+    margin-top: 2.5%;
     border: none;
+    transition: 1s;
 }
 .Dark-mode i {
     font-size: 30px;
@@ -121,7 +123,7 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0 30px 1px
     rgba(128, 128, 128, 0.11);
-    transition: 1.5s;
+    transition: 1s;
 
 }
 .container2 {
@@ -133,7 +135,7 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0 30px 1px
     rgba(128, 128, 128, 0.11);
-    transition: 1.5s;
+    transition: 1s;
 
 }
 .container2 img,
