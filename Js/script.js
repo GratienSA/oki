@@ -1,6 +1,6 @@
 // Passage en mode Nuit
 let firstLet = document.getElementsByClassName("logo");
-let header = document.querySelector("header");
+let header = document.querySelector(".Header");
 let body = document.body;
 let box1 = document.querySelector(".container2");
 let box2 = document.querySelector(".container3");

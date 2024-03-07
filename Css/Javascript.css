@@ -1,9 +1,11 @@
 .bg-black {
-    background-color: black;
+    background-color: #212121;
     transition: 1.5s;
 }
 .logow {
-    filter: drop-shadow(0 0 3px white);
+    filter: drop-shadow(0 0 30px white);
+    background-image: none;
+    background-color: hsl(192, 100%, 77%);
     transition: 1.5s;
 }
 .Titrew {

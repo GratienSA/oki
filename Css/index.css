@@ -11,7 +11,7 @@ main {
     background-color: none;
     position: relative;
 }
-header {
+.Header {
     background-image: url(/oki/media/bg_hero_desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -20,6 +20,7 @@ header {
     background-color: hsl(193, 100%, 96%);
     box-shadow: 0 0 5px 0px
     rgba(128, 128, 128, 0.671);
+    transition: 1.5s;
 }
 .logo {
     margin: 40px 80px;
