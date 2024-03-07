@@ -1,6 +1,5 @@
 // Passage en mode Nuit
 function darkmode() {
-    let firstLet = document.getElementsByClassName("logo");
     let header = document.querySelector(".Header");
     let body = document.body;
     let foot = document.querySelector("#footer");
@@ -22,17 +21,9 @@ function darkmode() {
 
     //Pour chaque élément fait ca
     h1white.forEach((element) => {
-        if(element.style.color = "black") {
-            element.style.color = "white";
-        } else {
-            element.style.color = "black";
-        }
+            element.classList.toggle("Titrew");
 })  
     h2white.forEach((element) => {  
-        element.style.filter = "drop-shadow(0 3px 10px white)";
-
+        element.classList.toggle("Titrew")
 })
-    img.forEach((element) => {
-        element.style.filter = "drop-shadow(0 0 20px white)";
-    })
 }
