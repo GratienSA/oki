@@ -1,0 +1,26 @@
+.bg-black {
+    background-color: #222329;
+    transition: 1.5s;
+}
+.logow {
+    filter: drop-shadow(0 0 30px white);
+    background-color: hsla(251, 100%, 65%, 0.253);
+    transition: 1.5s;
+    color: white;
+}
+.Titrew {
+    color: white;
+    transition: 1.5s;
+}
+.containerc2 {
+    box-shadow: 0px 0 30px 1px
+    rgba(255, 255, 255, 0.507);
+    transition: 1.5s;
+}
+.Light-mode {
+    color: white;
+    transition: 1.5s;
+}
+.footerw {
+    background-color: #7A6174;
+}
